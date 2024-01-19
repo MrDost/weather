@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="name">
+        <div class="small-name">START SEARCHING</div>
+        <div class="big-name">DEFAULT CITY</div>
+    </div>
+    <div class="search">
+        <div class="search-inside">
+            <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text">
+        </div>
+    </div>
+    <div class="weather-container">
+        <div class="temp">11°</div>
+        <div class="status">Partly Cloudy</div>
+        <div class="feels-like">Feels like 5°</div>
+        <div class="powered">WeatherAPI</div>
+        <div class="info-grid">
+            <div class="info-elem">
+                <div class="param">Wind</div>
+                <div class="value">SW 6 mph</div>
+            </div>
+            <div class="info-elem">
+                <div class="param">Visibility</div>
+                <div class="value">10 mi</div>
+            </div>
+            <div class="info-elem">
+                <div class="param">Humidity</div>
+                <div class="value">72%</div>
+            </div>
+            <div class="info-elem">
+                <div class="param">Pressure</div>
+                <div class="value">30 in</div>
+            </div>
+        </div>
+    </div>
+    <div class="updated">Page last update: 2024-01-19 16:00</div>
+    <div class="overlay-top"></div>
+    <div class="overlay-bottom"></div>
+    <img id="background" src="https://static.vecteezy.com/system/resources/previews/006/837/183/non_2x/the-dark-sky-had-clouds-gathered-to-the-left-and-a-strong-storm-before-it-rained-free-photo.jpg" alt="" srcset="">
+    <script src="app.js"></script>
+</body>
+</html>
